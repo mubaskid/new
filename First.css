@@ -1,0 +1,52 @@
+html {
+        background-image: url(/images/3289539.jpg);
+        /* background-color: aqua; */
+        background-repeat: no-repeat;
+        background-size: 800/600px;
+        background-attachment: fixed;
+        }
+
+body{
+        background-color: #a2a3b1;
+        }
+
+
+
+h1{
+    color: rgba(6, 2, 58, 0.534);    
+        }
+p{
+    color: black;
+        }
+
+.div1{
+   background-color: purple;
+   border-color: black;
+   border-style: dashed;
+   padding:1%;
+   margin: 5px;
+}
+
+
+.div2{
+    background-color:tomato;
+    border-color: black;
+    border-style: dotted;
+    padding: 1%;
+    margin: 5px;
+}
+
+.div3{
+    background-color:blue;
+    border-style: dashed;
+    border-color: black;
+    padding: 1%;
+    margin: 5px;
+}
+
+
+img{
+    /* border-color: gray; */
+    border-style: hidden;
+    padding: 1px;
+        }
