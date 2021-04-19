@@ -1,3 +1,3 @@
-aList = [100, 200, 300, 400, 500]
+aList = ["my", "name", "is", "Badr", "Mubashir"]
 aList = aList[::-1]
 print(aList)
