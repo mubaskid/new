@@ -16,7 +16,7 @@ class Animal:
         self.head = head
         self.teeth = teeth
         self.legs = legs
-        self.species = species
+        self.species = species    
         self.hands = hands 
 
     def displayAnimal(self):
