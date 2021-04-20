@@ -8,6 +8,6 @@ def checkpalindrome(number):
         return False
 
 
-print(checkpalindrome(12321))
-print(checkpalindrome(55555))
+print(checkpalindrome(465))
+print(checkpalindrome(645))
 print(checkpalindrome(12345))
