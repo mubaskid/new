@@ -4,7 +4,6 @@ class StopWatch:
     def __init__(self, startTime = 0, endTime = 0, elapsedTime = 0):
         self.__startTime = startTime
         self.__endTime = endTime
-        self.__elapsedTime = elapsedTime
 
     def start(self):
         self.__startTime = time.clock()
@@ -12,9 +11,6 @@ class StopWatch:
     def stop(self):
         return self.getElapsedTime()
 
-    def reset(self):
-        self.__startTime = 0
-        self.__elapsedTime = 0
 
     def getstarttime(self):
         return self.__startTime
@@ -30,7 +26,7 @@ class StopWatch:
 def main():
     x = StopWatch()
     x.start
-    # a = time.clock() #code only works with this line of code in place (I don't understand why?)
+    
     sum = 0 
     for i in range(1 , 10000000):
         sum += i
