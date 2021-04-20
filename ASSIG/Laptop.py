@@ -23,4 +23,4 @@ class Lapptop:
         print(self.size, self.type, self.brand, self.RAM, self.InternalStorage, self.keyboard, self.touchpad, self.switch)
 
 laptop = Lapptop("17inches", "touchscreen", "Hp", 4.2, 258, "wide", "Hptouchpad", "switch")
-laptop.dipslay()
+laptop.dipslay( )

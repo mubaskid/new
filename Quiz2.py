@@ -1,4 +1,4 @@
-import time #useful for measuring code execution
+import time 
 
 class StopWatch:
     def __init__(self, startTime = 0, endTime = 0, elapsedTime = 0):
