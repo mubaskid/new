@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assign.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div id="changeModeDiv">
+            <button onclick="myFunction()" id="changeMode">Change Mode</button>
+        </div>
+
+
+        <div id="error"></div>
+        <form id="myForm">
+
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+
+            <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="text" id="phone" name="Phonenumber" placeholder="Your phone number..">
+            </div>
+
+            <div class="form-group">
+                <label for="text">Age</label>
+                <input type="text" id="age" name="age" placeholder="How old are you..">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email..">
+            </div>
+
+            <div class="form-group">
+                <label for="psw">Password</label>
+                <input type="text" id="psw" name="password", placeholder="Enter your password..">
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="south africa"> South Africa</option>
+                    <option value="nigeria">Nigeria</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
+    <script src="assign.js"></script>
+
+</body>
+
+</html>
